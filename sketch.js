@@ -1,5 +1,6 @@
+// Mariam Barakat - mb10568
 let swarm = [];
-const TOTAL = 80; // no. of particles
+const TOTAL = 80; // No. of particles
 
 function setup() {
   createCanvas(600, 400);
@@ -10,7 +11,6 @@ function setup() {
 
 function draw() {
   background(10, 0, 15); // Solid background (the particles handle their own trails)
-
   for (let p of swarm) {
     p.update();
     p.display();
